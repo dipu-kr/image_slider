@@ -1,0 +1,63 @@
+body{
+    width:100%;
+    margin:0px;
+}
+.container{
+    position: relative;
+}
+.slides{
+    width:100%;
+    height: 80vh;
+    background-color: brown;
+}
+img{
+    width: 100%;
+    height: 80vh;
+}
+.cap{
+    position: absolute;
+    bottom: 0%;
+}
+.cap{
+    width:100%;
+    background-color: rgb(97, 90, 90,0.4);
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cap p{
+    margin: 0;
+    padding:10px 0;
+    color: honeydew;
+}
+.arrow{
+    position: absolute;
+    top: 40%;
+}
+.arr1{
+    background-color:rgb(116, 30, 30);
+    font-size: 40px;
+    left: 15px;
+    padding: 5px 10px;
+    border-radius: 50%;
+    color:white;
+    cursor: pointer;
+}
+.arr1:hover{
+    background-color: gray;
+    color:black;
+}
+.arr2{
+    background-color:rgb(116, 30, 30);
+    font-size: 40px;
+    right: 15px;
+    padding: 5px 10px;
+    border-radius: 50%;
+    color:white;
+    cursor: pointer;
+}
+.arr2:hover{
+    background-color: gray;
+    color:black;
+}
